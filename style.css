@@ -1,9 +1,12 @@
+/* reset label - this * universal selects all elements and makes them look the same in all browsers */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 /* organized by ascending*/
+
+/* header */
 
 body {
     background-color: #d9dcd6;
@@ -15,6 +18,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
 }
+
+/* h1 styling */
 
 .header h1 {
     display: inline-block;
@@ -42,14 +47,20 @@ body {
     margin-left: 25px;
 }
 
+/* text decoration is for underline, overline, line-through, blink, none */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* size of the displayed font */
+
 p {
     font-size: 16px;
 }
+
+/* image at top of page under header/nav */
 
 .hero {
     background-image: url("./images/digital-marketing-meeting.jpg");
@@ -87,6 +98,8 @@ p {
     width: 20%;
 }
 
+/* side section text styling */
+
 .benefit-lead {
     color: #ffffff;
     margin-bottom: 32px;
@@ -102,6 +115,8 @@ p {
     margin-bottom: 32px;
 }
 
+/* side section header text */
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +131,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* side section images */
 
 .benefit-lead img {
     display: block;
@@ -134,6 +151,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* boxes/sections and text styling */
 
 .search-engine-optimization {
     background-color: #0072bb;
@@ -162,6 +181,8 @@ p {
     padding: 50px;
 }
 
+/* images within each box/section */
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +194,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* box/sections headers */
 
 .search-engine-optimization h2 {
     font-size: 36px;
@@ -189,6 +212,7 @@ p {
     margin-bottom: 20px;
 }
 
+/* footer */
 .footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

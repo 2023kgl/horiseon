@@ -3,8 +3,9 @@ potential-octo-waffle
 # HTML CSS GIT - Refactor Existing Code
 
 ## Description
-This task was to refactor an already existing webpage for Horiseon to make it more accesible.
-To make it better without changing it's function.
+The task of this challenge was to organized and clean up the already existing code. Using the Acceptance Criteria as a checklist to complete.
+To use semantic elements instead of just using Divs. Divs are divisions. Sematice elements are more specific about the sections of the page, such as the navigation section, header section, footer section, etc. Using semantics helps when working on it.
+Adding comments to the sections to explaing how it is working and being styled. 
 
 ## User Story
 
@@ -25,5 +26,3 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-
-
