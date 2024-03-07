@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+
 <head>
     <meta charset="UTF-8"/>
+<!-- this links the style sheet CSS to add the styling of fonts, colors, etc. -->
     <link rel="stylesheet" href="./style.css">
+<!-- this title is displayed in the browser tab -->
     <title>Horiseon</title>
 </head>
 
 <body>
 <header class="header">
+<!-- headers -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+
+<!-- nav = navigation which helps navigate the page (link group) -->
+        <nav>
             <ul>
+                <!-- ul = unordered list and li = is the list/item in list -->
                 <li>
+                    <!-- a href = creates hyperlink to that part of webpage -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -22,15 +30,24 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
 </header>
 
+<main>
     <figure class="hero" alt="placeholder"></figure>
 
     <article class="content">
 
+        <!-- sections with text and images. images linked from folder and alt is the description of the image shoudl the image not load for some reason.-->
+        <!-- subtopic as h2 as h1 is used for the page name.-->    
+        <!-- id attribute is used to point to a specific style declaration in a style sheet. it is used for a specific element-->
+        <!-- class attribute can be used to assing multiple elements on a page -->
         <section id="search-engine-optimization" class="search-engine-optimization">
+
+            <!-- image source tells the program where/what image to use and is located in folder-->
             <img src="./images/search-engine-optimization.jpg" class="float-left" alt="Image of notebook with letters SEO in thinking bubble with workds backlink, content, headings, mobile compability, social media and link building around this bubble. Coffe, laptop and pencil holder surrounding this notebook. Pencil holder contains different color pencils and markers. A magnifying glass on the opened laptop."/>
+            
+             <!-- <h2> header of section and paragraph text for that section <p> -->
             <h2>Search Engine Optimization</h2>
                 <p>
                  The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -48,21 +65,22 @@
         <section id="social-media-marketing" class="social-media-marketing">
             <img src="./images/social-media-marketing.jpg" class="float-left" alt="Arial photo of 6 people working. One has a laptop, another has a tablet, others have notebooks, and cups on the talbe. Different colored text bubbles with the words Share, Like, Tweet, and Media. Different color icons."/>
             <h2>Social Media Marketing</h2>
-            <p>
+                <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
+                </p>
         </section>
 
     </article>
-
+<!-- side section with images and text. images linked from folder and alt is the description of the image should the image not load for some reason. h3 sizes the headers of those section.-->
+    <!-- h3 is anothe subtopic but not as big as h2 or h1. h1 would be the biggest and can go down to h6.-->
     <aside id="aside1" class="benefits">
 
         <section class="benefit-lead">
             <h3>Lead Generation</h3>
-             <img src="./images/lead-generation.png" alt="Half of gear on top, followed by funnel with down arrow inside the funnel, and dollar sign at end/botton of funnel."/>
-            <p>
+                <img src="./images/lead-generation.png" alt="Half of gear on top, followed by funnel with down arrow inside the funnel, and dollar sign at end/botton of funnel."/>
+                <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
+                </p>
         </section>
 
         <section class="benefit-brand">
@@ -82,6 +100,8 @@
         </section>
     </aside>
 
+</main>
+<!-- footer the &copy is forthe copy rights icon -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
